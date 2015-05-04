@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 31, 2014, 11:59:33 AM
+    Author     : Plamen
+*/
+
+#edit_css_dialog {
+    width: auto;
+    
+}
+
+#bg_red, #bg_green, #bg_blue, #border_green, #border_blue, #border_red, #opacity {
+    float: left;
+    clear: left;
+    width: 200px;
+    height: 10px;
+    margin: 5px;
+    display: inline;
+  }
+  #swatch, #border_swatch {
+    width: 70px;
+    height: 60px;
+    margin-top: -2px;
+    margin-left: 220px;
+    background-image: none;
+  }
+  
+  .opacity_value {
+      height: 25px;
+      width: 40px;
+      margin-left: 20px;
+      margin-top: -5px;
+    }
+   
+  #bg_red .ui-slider-range { background: #ef2929; }
+  #bg_red .ui-slider-handle { border-color: #ef2929; }
+  #bg_green .ui-slider-range { background: #8ae234; }
+  #bg_green .ui-slider-handle { border-color: #8ae234; }
+  #bg_blue .ui-slider-range { background: #729fcf; }
+  #bg_blue .ui-slider-handle { border-color: #729fcf; }
+  
+  #border_red .ui-slider-range { background: #ef2929; }
+  #border_red .ui-slider-handle { border-color: #ef2929; }
+  #border_green .ui-slider-range { background: #8ae234; }
+  #border_green .ui-slider-handle { border-color: #8ae234; }
+  #border_blue .ui-slider-range { background: #729fcf; }
+  #border_blue .ui-slider-handle { border-color: #729fcf; }
+  
+  #opacity .ui-slider-range { background: #000000; }
+  #opacity .ui-slider-handle { border-color: #000000; }
+  
+  .css_properties_fieldset {
+      border-radius: 10px;
+      padding-top: 10px;
+      width: 'auto';
+  }
+
+  .border_all, .border_sides {
+      margin-bottom: 5px;
+  }
+  
+  .border_sides {
+      width: 40px;
+  }
+  
+  .border_sides {
+      margin-left: 3%;
+  }
+  
+    .border_left, .border_top, .border_bottom, .border_right {
+      display: inline-block;
+      width: 100px;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    
+    .hide, error {
+        display: none;
+    }
+    
+    .inner_legend {
+        margin-top: -1%;
+    }
+    
+    .border_styles {
+        display: none;
+    }
+    
+    .border_styles li{
+        display: inline-block;
+        margin-right: 3%;
+    }
+    
+    .selected_style {
+        color: red;
+    }
